@@ -550,7 +550,7 @@ aside h3{
 }
 
 #articles article{
-    width: 100%;
+    width: 97%;
     border: 1px solid #ccc;
     margin: 40px auto;
     padding: 10px;
@@ -571,7 +571,8 @@ aside h3{
     color: #00538c;
 }
 
-#articles article h4 a:hover{
+#articles article h4 a:hover,
+#articles article  p a:hover{
     text-decoration: underline;
 }
 
