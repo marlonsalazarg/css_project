@@ -122,11 +122,7 @@
     }
 }
 
-@media (max-width: 736px){
-    #lateral input[type="text"] {
-        width: 70%;
-    }
-}
+
 
 @media (max-width: 799px){
 
@@ -155,6 +151,12 @@
     }
 }
 
+@media (max-width: 736px){
+    #lateral input[type="text"] {
+        width: 70%;
+    }
+}
+
 @media (max-width: 724px){
     #header{
         width: 100%;
@@ -178,5 +180,149 @@
     }
     #menu ul li:last-child {
         margin-right: 0px;
+    }
+}
+
+@media (max-width: 700px){
+    #lateral{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+        margin-top: 20px;
+    }
+
+    #articles{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+    }
+
+    #lateral input[type="text"] {
+        width: 92%;
+    }
+
+    #login input[type="email"], 
+    #login input[type="password"] {
+        width: 90%;
+    }
+
+    #footer{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #footer .wrap > div {
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    #footer h5{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 565px){
+
+
+    #banner h1 {
+        font-size: 24px;
+    }
+
+    #articles h2 {
+        font-size: 30px;
+    }
+    
+    .card {
+        width: 19%;
+        margin: 1px;
+    }
+
+    .card .icon{
+        font-size: 35px;
+    }
+
+    .card:hover .icon{
+        font-size: 35px;
+    }
+
+    #lateral input[type="text"] {
+        width: 90%;
+    }
+}
+
+@media (max-width: 475px){
+    #header{
+        width: 100%;
+        height: 300px;
+        padding-top: 10px;
+    }
+
+    #menu{
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #menu ul li:first-child {
+        margin-left: 0px;
+    }
+
+    #menu ul li{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        line-height: 52px;
+        font-size: 25px;
+    }
+
+    #menu ul li a{
+        width: 100%;
+        margin: 0px;
+        line-height: 52px;
+    }
+
+    #menu ul li a:hover{
+        color: #37bcf9;
+        transform: scale(1, 1);
+    }
+
+    #articles article .data{
+        float: none;
+        margin: -10px;
+        border-radius: 0px;
+    }
+
+    #articles article h4{
+        margin-top: 20px;
+    }
+
+    .card{
+        width: 31%;
+       /* border: none;*/
+    }
+}
+
+@media (max-width: 405px){
+    #lateral input[type="text"] {
+        width: 87%;
+    }
+
+    #login input[type="email"], 
+    #login input[type="password"]{
+        width: 80%;
+    }
+}
+
+@media(max-width: 311px){
+    #lateral input[type="text"] {
+        width: 80%;
+    }
+
+    #articles h2 {
+        font-size: 24px;
     }
 }
